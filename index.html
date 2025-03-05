@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Online English Classes</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #0044cc;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        h1, h2 {
+            color: #0044cc;
+        }
+
+        .services, .method {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+
+        .service, .method-item {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 30%;
+            text-align: center;
+        }
+
+        .contact-form {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+
+        .contact-button {
+            background-color: #25d366;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            border-radius: 5px;
+            display: inline-block;
+            text-decoration: none;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #0044cc;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Online English Classes</h1>
+    <p>Flexible and Personalised English Lessons to Suit Your Needs</p>
+</header>
+
+<div class="container">
+    <section class="services">
+        <div class="service">
+            <h2>Flexible Classes 100% Online</h2>
+            <p>Take classes from anywhere at any time, fully online!</p>
+        </div>
+        <div class="service">
+            <h2>Personalised to Your Level</h2>
+            <p>Classes tailored to your abilities and progress.</p>
+        </div>
+        <div class="service">
+            <h2>Experienced Teacher</h2>
+            <p>With more than 18 years of experience and a Master's in English.</p>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="service">
+            <h2>Examination Preparation</h2>
+            <p>Prepare for IELTS, Selectividad, Cambridge exams and more!</p>
+        </div>
+    </section>
+
+    <section class="method">
+        <div class="method-item">
+            <h2>Method of Teaching</h2>
+            <p>Focused on speaking and structure.</p>
+        </div>
+        <div class="method-item">
+            <h2>Interesting Topics</h2>
+            <p>Engaging videos and discussions to improve your skills.</p>
+        </div>
+    </section>
+
+    <section class="contact-form">
+        <h2>Contact Us</h2>
+        <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="telephone">Telephone:</label>
+            <input type="tel" id="telephone" name="telephone" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+        <a href="https://wa.me/yourwhatsapplink" class="contact-button" target="_blank">Contact us via WhatsApp</a>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2025 Online English Classes</p>
+</footer>
+
+</body>
+</html>
