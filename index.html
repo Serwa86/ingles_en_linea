@@ -1,150 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Online English Classes</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Clases de Inglés Online</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
+        body { font-family: Arial, sans-serif; text-align: center; padding: 30px; }
+        .container { max-width: 700px; margin: auto; }
+        img { max-width: 100%; height: auto; border-radius: 10px; }
+        .button, .form-button { 
+            display: inline-block; 
+            margin-top: 20px; 
+            padding: 10px 20px; 
+            background: green; 
+            color: white; 
+            text-decoration: none; 
+            border-radius: 5px; 
+            border: none; /* Ensures buttons look uniform */
+            cursor: pointer; /* Improves UX */
+            font-size: 16px; /* Matches text size */
         }
-
-        header {
-            background-color: #0044cc;
-            color: white;
-            text-align: center;
-            padding: 20px;
-        }
-
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-        }
-
-        h1, h2 {
-            color: #0044cc;
-        }
-
-        .services, .method {
-            display: flex;
-            justify-content: space-around;
-            margin: 20px 0;
-        }
-
-        .service, .method-item {
-            background-color: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            width: 30%;
-            text-align: center;
-        }
-
-        .contact-form {
-            background-color: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        .contact-form input, .contact-form textarea {
+        input[type="text"], input[type="email"], input[type="tel"], textarea {
             width: 100%;
-            padding: 10px;
-            margin: 10px 0;
+            padding: 12px;
+            margin-top: 10px;
             border-radius: 5px;
             border: 1px solid #ddd;
+            font-size: 16px; /* Improves readability */
         }
-
-        .contact-button {
-            background-color: #25d366;
-            color: white;
-            padding: 10px 20px;
-            text-align: center;
-            border-radius: 5px;
-            display: inline-block;
-            text-decoration: none;
-        }
-
-        footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #0044cc;
-            color: white;
-        }
+        textarea { height: 150px; }
     </style>
 </head>
 <body>
-
-<header>
-    <h1>Online English Classes</h1>
-    <p>Flexible and Personalised English Lessons to Suit Your Needs</p>
-</header>
-
-<div class="container">
-    <section class="services">
-        <div class="service">
-            <h2>Flexible Classes 100% Online</h2>
-            <p>Take classes from anywhere at any time, fully online!</p>
-        </div>
-        <div class="service">
-            <h2>Personalised to Your Level</h2>
-            <p>Classes tailored to your abilities and progress.</p>
-        </div>
-        <div class="service">
-            <h2>Experienced Teacher</h2>
-            <p>With more than 18 years of experience and a Master's in English.</p>
-        </div>
-    </section>
-
-    <section class="services">
-        <div class="service">
-            <h2>Examination Preparation</h2>
-            <p>Prepare for IELTS, Selectividad, Cambridge exams and more!</p>
-        </div>
-    </section>
-
-    <section class="method">
-        <div class="method-item">
-            <h2>Method of Teaching</h2>
-            <p>Focused on speaking and structure.</p>
-        </div>
-        <div class="method-item">
-            <h2>Interesting Topics</h2>
-            <p>Engaging videos and discussions to improve your skills.</p>
-        </div>
-    </section>
-
-    <section class="contact-form">
-        <h2>Contact Us</h2>
-        <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-
-            <label for="telephone">Telephone:</label>
-            <input type="tel" id="telephone" name="telephone" required>
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
-
-            <button type="submit">Submit</button>
+    <div class="container">
+        <h1>🌍 Aprende Inglés con una Profesora Titulada</h1>
+        <h2>Clases Online Personalizadas para Todos los Niveles</h2>
+        <p>📚 Profesora de inglés con más de 18 años de experiencia.</p>
+        <p>✅ Clases <strong>100% online</strong> para máxima flexibilidad.</p>
+        <p>✅ Horario adaptado a tus necesidades.</p>
+        <p>✅ Clases personalizadas según tu nivel y objetivos.</p>
+        
+        <a class="button" href="https://wa.me/34636535992" target="_blank">💬 Chatear por WhatsApp</a>  
+        
+        <h2>🎯 Preparación de Exámenes Oficiales</h2>
+        <ul>
+            <li>📖 <strong>Cambridge</strong> (A2, B1, B2, C1, C2)</li>
+            <li>🏆 <strong>IELTS y TOEFL</strong></li>
+            <li>🎓 <strong>Selectividad (EBAU)</strong></li>
+        </ul>
+        
+        <h2>🗣️ Método de Enseñanza</h2>
+        <p>Mi enfoque está en la conversación, ya que es el aspecto más importante y a menudo el más descuidado.</p>
+        <p>También incluyo práctica estructurada y ejercicios de escritura según sea necesario.</p>
+        <p>Me gusta traer temas interesantes y videos a la clase para fomentar la discusión.</p>
+        
+        <h2>📩 Contacto</h2>
+        <p>Reserva una clase de prueba o pregunta cualquier duda:</p>
+        <form id="contact-form" action="https://formsubmit.co/srwa.hozhabri@gmail.com" method="POST">
+            <input type="text" name="name" placeholder="Tu Nombre" required>
+            <input type="email" name="email" placeholder="Tu Email" required>
+            <input type="tel" name="contact" placeholder="Tu Contacto" required>
+            <textarea name="message" placeholder="Tu Mensaje" required></textarea>
+            <input type="hidden" name="_captcha" value="false">
+    
+            <button type="submit" class="form-button">Enviar Mensaje</button>
         </form>
-        <a href="https://wa.me/yourwhatsapplink" class="contact-button" target="_blank">Contact us via WhatsApp</a>
-    </section>
-</div>
 
-<footer>
-    <p>&copy; 2025 Online English Classes</p>
-</footer>
+        <!-- Success message (hidden by default) -->
+        <p id="success-message" style="display: none; font-size: 18px; color: green; margin-top: 20px;">
+            ✅ ¡Formulario enviado con éxito! Gracias por tu mensaje.
+        </p>
 
+        <a class="button" href="https://wa.me/34636535992" target="_blank">💬 Chatear por WhatsApp</a>
+    </div>
+
+    <script>
+        document.getElementById("contact-form").addEventListener("submit", function(event) {
+            event.preventDefault(); // Prevents page reload
+
+            // Send form data using Fetch API
+            fetch(this.action, {
+                method: this.method,
+                body: new FormData(this),
+            }).then(response => {
+                if (response.ok) {
+                    // Hide the form
+                    document.getElementById("contact-form").style.display = "none";
+                    // Show the success message
+                    document.getElementById("success-message").style.display = "block";
+                } else {
+                    alert("Hubo un error al enviar el formulario. Inténtalo de nuevo.");
+                }
+            }).catch(error => {
+                alert("Error de conexión. Inténtalo más tarde.");
+            });
+        });
+    </script>
 </body>
 </html>
